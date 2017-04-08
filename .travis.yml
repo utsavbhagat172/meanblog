@@ -6,5 +6,8 @@ env:
 services:
   - mongodb
 
+before-script:
+  - grunt
+
 script : 
   - modules/users/tests/server/user.server.model.tests.js
