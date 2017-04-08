@@ -6,3 +6,6 @@ env:
   - NODE_ENV=travis
 services:
   - mongodb
+
+script : 
+  - modules/posts/tests/client/list-posts.client.controller.tests
